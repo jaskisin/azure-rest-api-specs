@@ -36,7 +36,6 @@ These settings apply only when `--tag=package-preview-2023-10` is specified on t
 
 ```yaml $(tag) == 'package-preview-2023-10'
 input-file:
-  - Microsoft.Workloads/SAPVirtualInstance/preview/2023-10-01-preview/SAPVirtualInstance.json
   - Microsoft.Workloads/common-types/v1/commonTypes.json
   - Microsoft.Workloads/operations/preview/2023-10-01-preview/operations.json
   - Microsoft.Workloads/stable/2023-04-01/monitors.json
