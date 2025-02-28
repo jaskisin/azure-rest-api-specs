@@ -169,11 +169,14 @@ using Azure.ClientGenerator.Core;
   "java"
 );
 
-@@clientName(Microsoft.Workloads.ErrorDefinition, "ErrorInformation", "csharp");
+@@clientName(Microsoft.Workloads.ErrorDefinition,
+  "SapErrorInformation",
+  "csharp"
+);
 
-@@clientName(Microsoft.Workloads.StartRequest, "StartContent", "csharp");
+@@clientName(Microsoft.Workloads.StartRequest, "SapStartContent", "csharp");
 
-@@clientName(Microsoft.Workloads.StopRequest, "StopContent", "csharp");
+@@clientName(Microsoft.Workloads.StopRequest, "SapStopContent", "csharp");
 
 @@clientName(Microsoft.Workloads,
   "WorkloadsSapVirtualInstanceMgmtClient",
@@ -340,5 +343,50 @@ using Azure.ClientGenerator.Core;
 );
 @@clientName(Microsoft.Workloads.UpdateSAPApplicationInstanceRequest,
   "UpdateSapApplicationInstanceRequest",
+  "csharp"
+);
+@@clientName(Microsoft.Workloads.ApplicationServerConfiguration,
+  "SapApplicationServerConfiguration",
+  "csharp"
+);
+@@clientName(Microsoft.Workloads.CentralServerConfiguration,
+  "SapCentralServerConfiguration",
+  "csharp"
+);
+@@clientName(Microsoft.Workloads.CentralServerConfiguration.subnetId,
+  "SapSubnetId",
+  "csharp"
+);
+@@clientName(Microsoft.Workloads.DatabaseConfiguration,
+  "SapDatabaseConfiguration",
+  "csharp"
+);
+@@clientName(Microsoft.Workloads.OSConfiguration,
+  "SapOSConfiguration",
+  "csharp"
+);
+@@clientName(Microsoft.Workloads.SoftwareConfiguration,
+  "SapSoftwareConfiguration",
+  "csharp"
+);
+@@clientName(Microsoft.Workloads.SshKeyPair, "SapSshKeyPair", "csharp");
+@@clientName(Microsoft.Workloads.SshPublicKey, "SapSshPublicKey", "csharp");
+@@clientName(Microsoft.Workloads.WindowsConfiguration,
+  "SapWindowsConfiguration",
+  "csharp"
+);
+@@clientName(Microsoft.Workloads.DeploymentConfiguration,
+  "SapDeploymentConfiguration",
+  "csharp"
+);
+@@clientName(Microsoft.Workloads.DiscoveryConfiguration,
+  "SapDiscoveryConfiguration",
+  "csharp"
+);
+@@clientName(Microsoft.Workloads.DiskDetails, "SapDiskDetails", "csharp");
+@@clientName(Microsoft.Workloads.DiskSkuName, "SapDiskSkuName", "csharp");
+@@clientName(Microsoft.Workloads.ImageReference, "SapImageReference", "csharp");
+@@clientName(Microsoft.Workloads.LinuxConfiguration,
+  "SapLinuxConfiguration",
   "csharp"
 );
